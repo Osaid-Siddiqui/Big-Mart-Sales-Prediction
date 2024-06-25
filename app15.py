@@ -11,8 +11,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 
 # Specify the absolute paths to your CSV files
-train_file_path = r'C:\Users\Dell\Desktop\train.csv'
-test_file_path = r'C:\Users\Dell\Desktop\test.csv'
+train_file_path = 'train.csv'
+test_file_path = 'test.csv'
 
 # Loading the data from CSV files
 df_train = pd.read_csv(train_file_path)
